@@ -1,7 +1,5 @@
 import streamlit as st
 import pandas as pd
-from st_aggrid import AgGrid, GridUpdateMode
-from st_aggrid.grid_options_builder import GridOptionsBuilder
 
 df = pd.read_excel('食品營養成分資料庫2022版.xlsx' , usecols='B, C, G, J, K, N, O, P, W')
 
