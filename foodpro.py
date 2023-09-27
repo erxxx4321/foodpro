@@ -15,7 +15,7 @@ st.set_page_config(layout="wide")
 st.subheader("食品營養成分查詢 / 單位每100g")
 with st.form('search_form'):
     foodname = st.text_input('輸入食品名稱')
-    isHighProtein = st.checkbox('高蛋白食物標記(>15g/100g)')
+    isHighProtein = st.checkbox('高蛋白(>15g/100g)')
     isHighFat = st.checkbox('高脂肪(>17.5g/100g)')
     submitted = st.form_submit_button('查詢')
     if submitted:
